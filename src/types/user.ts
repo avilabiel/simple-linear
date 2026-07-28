@@ -4,6 +4,7 @@ import type { Workspace } from "./workspace";
 
 interface User {
   id: string;
+  clerkId: string;
   fullname: string;
   email: string;
   workspace?: Workspace;

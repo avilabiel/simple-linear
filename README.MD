@@ -11,6 +11,7 @@ These are all the commands you will need in this project:
 Start the app:
 
 ```bash
+cp .env.example .env
 npm install
 npm run dev
 ```
@@ -33,8 +34,10 @@ This app will have the following layers:
 
 # Next steps
 
-1. Finish the app including the tasks attachments and comments
-2. Improve the UI
+- Clean up things from the boilerplate (e.g. unused assets)
+- Improve the MockAPI to have all items (instead of just compiled into users entity)
+- Finish the app including the tasks attachments and comments
+- Improve the UI
 
 # React + TypeScript + Vite
 

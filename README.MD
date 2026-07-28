@@ -28,6 +28,13 @@ This app will have the following layers:
 - ui: components dealing with the UI
 - app: high order components dealing with the logic
 - services: different services like logic, API or 3rd party libraries (future). All 3rd parties will be implemented with Facade Design Pattern
+- assets: general assets like images, videos, icons, svgs
+- types: primary types (aka entities)
+
+# Next steps
+
+1. Finish the app including the tasks attachments and comments
+2. Improve the UI
 
 # React + TypeScript + Vite
 

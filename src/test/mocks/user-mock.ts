@@ -1,0 +1,76 @@
+const regularList = [
+  {
+    id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    clerkId: "user_2abcXYZ123",
+    fullname: "Gabriel Avila",
+    email: "gabriel@example.com",
+    workspace: {
+      id: "w1a2b3c4-d5e6-7890-abcd-ef0987654321",
+      name: "Demo Workspace",
+      createdAt: "2026-01-10T14:30:00.000Z",
+      updatedAt: "2026-07-28T12:00:00.000Z",
+      archivedAt: null,
+    },
+    roles: [
+      {
+        id: "r1a2b3c4-d5e6-7890-abcd-ef1111111111",
+        name: "admin",
+        description: "Full access to the workspace",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+      {
+        id: "r2a2b3c4-d5e6-7890-abcd-ef2222222222",
+        name: "member",
+        description: "Can create and manage tasks",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+    ],
+    permissions: [
+      {
+        id: "p1a2b3c4-d5e6-7890-abcd-ef3333333333",
+        name: "create_task",
+        resource: "task",
+        action: "create",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+      {
+        id: "p2a2b3c4-d5e6-7890-abcd-ef4444444444",
+        name: "update_task",
+        resource: "task",
+        action: "update",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+      {
+        id: "p3a2b3c4-d5e6-7890-abcd-ef5555555555",
+        name: "delete_task",
+        resource: "task",
+        action: "delete",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+      {
+        id: "p4a2b3c4-d5e6-7890-abcd-ef6666666666",
+        name: "invite_user",
+        resource: "user",
+        action: "invite",
+        createdAt: "2026-01-10T14:30:00.000Z",
+        updatedAt: "2026-01-10T14:30:00.000Z",
+        archivedAt: null,
+      },
+    ],
+    createdAt: "2026-01-15T09:00:00.000Z",
+    updatedAt: "2026-07-28T12:00:00.000Z",
+    archivedAt: null,
+  },
+];
+
+export { regularList };

@@ -1,11 +1,19 @@
 import type { User } from "@/types/user";
 import { API_URL } from "@/services/constants";
+import { AppConnectionError } from "@/services/exceptions/app-connection-error";
 
-interface GetUsersResponse {
-  data: User[];
-}
+export const getUsers = async (): Promise<User[]> => {
+  const response = await fetch(`${API_URL}/users`, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 
-export const getUsers = async (): Promise<GetUsersResponse> => {
-  const response = await fetch(`${API_URL}/users`);
-  return response.json();
+  if (!response.ok) {
+    throw new AppConnectionError("Failed to fetch users");
+  }
+
+  const data = (await response.json()) as User[];
+  return data;
 };

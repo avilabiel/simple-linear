@@ -1,0 +1,23 @@
+.error-message {
+  color: var(--error, #b42318);
+  font-size: 13px;
+  margin: 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.field input {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font: inherit;
+}
+
+.field input[aria-invalid="true"] {
+  border-color: var(--error, #b42318);
+}

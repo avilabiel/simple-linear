@@ -39,6 +39,7 @@ This app will have the following layers:
 - Finish the app including the tasks attachments and comments
 - Improve the UI
 - Improve the exceptions. Getting fetch.ok (200-299 range) as assign it as App Connection Error is too generic and not useful for the app/catches
+- Enhance the test coverage to the UI and App folders
 
 # React + TypeScript + Vite
 

@@ -1,0 +1,58 @@
+const regularList = [
+  {
+    id: "t1a2b3c4-d5e6-7890-abcd-ef1111111111",
+    title: "Implement login",
+    slug: "implement-login",
+    description: "Build the login flow using the mocked auth API.",
+    createdBy: {
+      id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      clerkId: "user_2abcXYZ123",
+      fullname: "Gabriel Avila",
+      email: "gabriel@example.com",
+      createdAt: "2026-01-15T09:00:00.000Z",
+      updatedAt: "2026-07-28T12:00:00.000Z",
+      archivedAt: null,
+    },
+    createdAt: "2026-07-20T10:00:00.000Z",
+    updatedAt: "2026-07-22T15:30:00.000Z",
+    archivedAt: null,
+  },
+  {
+    id: "t2a2b3c4-d5e6-7890-abcd-ef2222222222",
+    title: "Create task board",
+    slug: "create-task-board",
+    description: "Render workspace tasks in a simple board layout.",
+    createdBy: {
+      id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      clerkId: "user_2abcXYZ123",
+      fullname: "Gabriel Avila",
+      email: "gabriel@example.com",
+      createdAt: "2026-01-15T09:00:00.000Z",
+      updatedAt: "2026-07-28T12:00:00.000Z",
+      archivedAt: null,
+    },
+    createdAt: "2026-07-21T11:15:00.000Z",
+    updatedAt: "2026-07-25T09:45:00.000Z",
+    archivedAt: null,
+  },
+  {
+    id: "t3a2b3c4-d5e6-7890-abcd-ef3333333333",
+    title: "Add drag and drop",
+    slug: "add-drag-and-drop",
+    description: "Allow users to reorder tasks with drag and drop.",
+    createdBy: {
+      id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      clerkId: "user_2abcXYZ123",
+      fullname: "Gabriel Avila",
+      email: "gabriel@example.com",
+      createdAt: "2026-01-15T09:00:00.000Z",
+      updatedAt: "2026-07-28T12:00:00.000Z",
+      archivedAt: null,
+    },
+    createdAt: "2026-07-23T08:20:00.000Z",
+    updatedAt: "2026-07-28T12:00:00.000Z",
+    archivedAt: null,
+  },
+];
+
+export { regularList };

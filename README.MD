@@ -38,6 +38,7 @@ This app will have the following layers:
 - Improve the MockAPI to have all items (instead of just compiled into users entity)
 - Finish the app including the tasks attachments and comments
 - Improve the UI
+- Improve the exceptions. Getting fetch.ok (200-299 range) as assign it as App Connection Error is too generic and not useful for the app/catches
 
 # React + TypeScript + Vite
 
